@@ -69,7 +69,7 @@ others:<br>
 torchsummaryX<br>
 etc.<br>
 then I can see deeply why Involution works and how does the information exchanged between spatial space and channel space<br>
-pay attention to kernel size 1x1,3x3 and `7x7`, that's how it realized model long range interaction by lowing cost.<br>
+pay attention to kernel size 1x1,3x3 and `7x7`, that's how it realized model long range interaction by lowering cost.<br>
 
 A tip: pay attention to a parameter `img_metas` if you encounter problem, it stoped me from using forward function<br>
 Solution:rewrite yourself a forward function or, set a fake img_metas to forward.
